@@ -18,11 +18,26 @@
 	<!-- Styles -->
 	<link rel="stylesheet" type="text/css" href="css/app.css"/>
 	<link rel="stylesheet" type="text/css" href="css/layout.css"/>
+	<link href="css/video-js.css" rel="stylesheet" type="text/css">
+	<link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
 
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 	<link rel="shortcut icon" href="/favicon.png" type="image/png">
 	<link rel="shortcut icon" href="http://wagerfield.github.io/parallax/favicon.png" type="image/png">
+
+	  <style>
+    .video-js .vjs-tech {
+      position: relative;
+      height: inherit;
+    }
+    .player {
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      background:black;
+    }
+  </style>
 </head>
 <body>
 
@@ -31,7 +46,7 @@
 		<div class="content">
 			<img src="img/wilde_logo.png" alt="" class="logo">
 			<div class="content--head">
-				<h2>Landelijk Grote projecten</h2>
+				<h2>Verbinden heden met verleden</h2>
 				<div class="social--icons">
 					<img src="img/social_links.png" alt=""/>
 				</div>
@@ -42,7 +57,7 @@
 				<p>Ad veniam vocibus nec. Feugiat periculis referrentur cum no, pro eu fugit fabulas dolorem, vel aliquam moderatius ea. Congue alienum erroribus ea mea, alii inciderint cu cum. Cetero scripserit usu an, congue virtute quo te. No pro nulla aliquam, simul malorum meliore in eos, ea sit dicam laudem.</p>
 			</div>
 			<div class="content--links">
-				<a href="#" class="linkblock">
+				<a href="#test-popup" class="linkblock open-popup-link">
 					<div>
 						<div class="linkblock--visual">
 							<img src="img/passie.png" alt=""/>
@@ -53,38 +68,63 @@
 						</div>
 					</div>
 				</a>
-				<a href="#" class="linkblock">
+				<a href="pdf/factsheet - verleden.pdf" class="linkblock">
 					<div>
 						<div class="linkblock--visual">
 							<img src="img/joep.png" alt=""/>
 							<img src="img/pdf_read.png" alt="" class="linkblock--icon linkblock--icon--document">
 						</div>
 						<div class="linkblock--description">
-							Bekijk: "Passie geeft ruimte voor success"
+							Joep: &lsquo;Je moet echt doen wat je leuk vindt.&rsquo;
 						</div>
 					</div>
 				</a>
-				<a href="#" class="linkblock">
+				<a href="pdf/projectsheet verleden De Boerderij V1.pdf" class="linkblock">
 					<div >
 						<div class="linkblock--visual">
 							<img src="img/restauratie.png" alt=""/>
 							<img src="img/doc_read.png" alt="" class="linkblock--icon linkblock--icon--document">
 						</div>
 						<div class="linkblock--description">
-							Bekijk: "Passie geeft ruimte voor success"
+							Lees: overzicht van restauratieprojecten
 						</div>
 					</div>
 				</a>
 			</div>
 
 		</div>
+		<div id="test-popup" class="player mfp-hide">
+			<video id="example_video_1" class="video-js vjs-default-skin" controls preload="auto"
+			style="height:auto; width:100%"
+			data-setup="{}">
+			<source src="http://vjs.zencdn.net/v/oceans.mp4" type='video/mp4' />
+			<p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+			</video>
+		</div>
 	</div>
+
 	
 
 
 	<!-- Scripts -->
 	<script src="/js/libraries.min.js"></script>
 	<script src="js/jquery.parallax.js"></script>
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="js/video.js"></script>
+	<script src="js/magnific-popup.js"></script>
+
+	<script>
+	  videojs.options.flash.swf = "video-js.swf";
+	  $('document').ready(function(){
+	    $('.open-popup-link').magnificPopup({
+	      type:'inline',
+	      midClick: true
+	    });
+	    $('.open-popup-link').on('click',function(){
+	      videojs('example_video_1').play();
+	    })
+	  })
+	</script>
 	<script>
 
 	// jQuery Selections

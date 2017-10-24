@@ -701,7 +701,7 @@ footer {
   position: fixed;
 	width: 100vw;
 	height: 100vh;
-	background: url(/img/background_landelijk.png) no-repeat center center fixed;
+	background: url(../img/background_landelijk.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
