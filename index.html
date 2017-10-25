@@ -17,6 +17,8 @@
 
 	<!-- Styles -->
 	<link rel="stylesheet" type="text/css" href="css/app.css"/>
+	<link rel="stylesheet" type="text/css" href="css/layout.css"/>
+	<link rel="stylesheet" type="text/css" href="css/layouthome.css"/>
 
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
@@ -33,14 +35,23 @@
 			data-friction-y="0.1"
 			data-scalar-x="25"
 			data-scalar-y="15">
-			<li class="layer" data-depth="0.00"></li>
-			<li class="layer" data-depth="0.10"><div class="background"></div></li>
-			<li class="layer" data-depth="0.05"><img src="/img/ttl.png" alt="De geheimen van de Wilde Winnaar" class="home_title"></li>
+			<li class="layer" data-depth="0.10">
+				<div class="backtest">
+					<img src="/img/background_plus.png" alt="" class="backtest--back">
+					<a href="verleden.html" class="verleden">hallo</a>
+				</div>
+			</li>
+			<li class="layer" data-depth="0.1">
+				
+			</li>
+			<li class="layer" data-depth="0.05">
+				<img src="/img/ttl.png" alt="De geheimen van de Wilde Winnaar" class="home_title">
+			</li>
 
 			<li class="layer" data-depth="0.60">
 				<ul class="rope depth-60">
+					<a href="#" class="top">top</a>
 					<li><img src="/img/faddil.png" alt="Rope"></li>
-
 				</ul>
 			</li>
 		</ul>

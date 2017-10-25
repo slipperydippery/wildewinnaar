@@ -321,7 +321,8 @@ footer {
 .wrapper {
   min-height: 460px;
   position: absolute;
-  overflow: hidden;
+  /*overflow: hidden;*/
+  overflow-y: hidden;
   display: table;
   height: 100%;
   width: 100%;
@@ -663,7 +664,8 @@ footer {
 .scene {
   min-height: 460px;
   position: relative;
-  overflow: hidden; }
+  /*overflow: hidden; }*/
+  overflow-y: hidden;
 
 .layer {
   position: absolute; }
@@ -687,7 +689,7 @@ footer {
   top: 42%; }
 
 .background {
-  background: url(/img/background_plus.png) no-repeat 50% 100%;
+  background: url(/img/background_plus.png) no-repeat 50% 50%;
   /*bottom: 96px;*/
   background-size: cover;
   position: absolute;
