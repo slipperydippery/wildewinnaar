@@ -1,0 +1,210 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+
+	<title>de Wilde Winnaar</title>
+
+	<!-- Behavioral Meta Data -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<!-- Core Meta Data -->
+	<meta name="author" content="Maarten de Jager">
+	<meta name="description" content="De Wilde Winnaar">
+	<meta name="keywords" content="Jeroen de Wilde">
+
+	<!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="css/app.css"/>
+	<link rel="stylesheet" type="text/css" href="css/layout.css"/>
+	<link rel="stylesheet" type="text/css" href="css/subpagelayout.css"/>
+	<link href="css/video-js.css" rel="stylesheet" type="text/css">
+	<link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="/favicon.png" type="image/png">
+	<link rel="shortcut icon" href="http://wagerfield.github.io/parallax/favicon.png" type="image/png">
+
+	  <style>
+    .video-js .vjs-tech {
+      position: relative;
+      height: inherit;
+    }
+    .player {
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      background:black;
+    }
+  </style>
+</head>
+<body>
+
+	<div class="background--subpage background--verleden ">
+		<div class="content">
+			<img src="img/wilde_logo.png" alt="" class="logo">
+			<div class="content--head">
+				<h2>Verbinden heden met verleden</h2>
+				<div class="social--icons">
+					<img src="img/social_links.png" alt=""/>
+				</div>
+			</div>
+			<div class="content--body">
+				<p>Het lijkt wat ver gezocht. Monumenten restaureren als belangrijke tak van een ingenieursbureau. Want zo op het eerste gezicht hebben monumenten niets te maken met kwaliteit, arbo, milieu en veiligheid. Maar zo ver ligt het niet af van alles dat te maken heeft met De Wilde Ingenieurs Groep. In deze bijzondere specialisatie ligt misschien wel de kern en de kracht van alles dat De Wilde Ingenieurs Groep doet. </p>
+
+				<p>Lees dit artikel verder >> of klik op een ander item.</p>
+			</div>
+			<div class="content--links">
+				<a href="#test-popup" class="linkblock open-popup-link">
+					<div>
+						<div class="linkblock--visual">
+							<img src="img/passie.png" alt=""/>
+							<img src="img/video_play.png" alt="" class="linkblock--icon linkblock--icon--video">
+						</div>
+						<div class="linkblock--description">
+							Bekijk: "Passie geeft ruimte voor success"
+						</div>
+					</div>
+				</a>
+				<a href="pdf/factsheet - verleden.pdf" class="linkblock">
+					<div>
+						<div class="linkblock--visual">
+							<img src="img/joep.png" alt=""/>
+							<img src="img/pdf_read.png" alt="" class="linkblock--icon linkblock--icon--document">
+						</div>
+						<div class="linkblock--description">
+							Joep: &lsquo;Je moet echt doen wat je leuk vindt.&rsquo;
+						</div>
+					</div>
+				</a>
+				<a href="pdf/projectsheet verleden De Boerderij V1.pdf" class="linkblock">
+					<div >
+						<div class="linkblock--visual">
+							<img src="img/restauratie.png" alt=""/>
+							<img src="img/doc_read.png" alt="" class="linkblock--icon linkblock--icon--document">
+						</div>
+						<div class="linkblock--description">
+							Lees: overzicht van restauratieprojecten
+						</div>
+					</div>
+				</a>
+			</div>
+
+		</div>
+		<div id="test-popup" class="player mfp-hide">
+			<video id="example_video_1" class="video-js vjs-default-skin" controls preload="auto"
+			style="height:auto; width:100%"
+			data-setup="{}">
+			<source src="http://vjs.zencdn.net/v/oceans.mp4" type='video/mp4' />
+			<p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+			</video>
+		</div>
+	</div>
+
+	
+
+
+	<!-- Scripts -->
+	<script src="/js/libraries.min.js"></script>
+	<script src="js/jquery.parallax.js"></script>
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="js/video.js"></script>
+	<script src="js/magnific-popup.js"></script>
+
+	<script>
+	  videojs.options.flash.swf = "video-js.swf";
+	  $('document').ready(function(){
+	    $('.open-popup-link').magnificPopup({
+	      type:'inline',
+	      midClick: true
+	    });
+	    $('.open-popup-link').on('click',function(){
+	      videojs('example_video_1').play();
+	    })
+	  })
+	</script>
+	<script>
+
+	// jQuery Selections
+	var $html = $('html'),
+			$container = $('#container'),
+			$prompt = $('#prompt'),
+			$toggle = $('#toggle'),
+			$about = $('#about'),
+			$scene = $('#scene');
+
+	// Hide browser menu.
+	(function() {
+		setTimeout(function(){window.scrollTo(0,0);},0);
+	})();
+
+	// Setup FastClick.
+	FastClick.attach(document.body);
+
+	// Add touch functionality.
+	if (Hammer.HAS_TOUCHEVENTS) {
+		$container.hammer({drag_lock_to_axis: true});
+		_.tap($html, 'a,button,[data-tap]');
+	}
+
+	// Add touch or mouse class to html element.
+	$html.addClass(Hammer.HAS_TOUCHEVENTS ? 'touch' : 'mouse');
+
+	// Resize handler.
+	(resize = function() {
+		$scene[0].style.width = window.innerWidth + 'px';
+		$scene[0].style.height = window.innerHeight + 'px';
+		if (!$prompt.hasClass('hide')) {
+			if (window.innerWidth < 600) {
+				$toggle.addClass('hide');
+			} else {
+				$toggle.removeClass('hide');
+			}
+		}
+	})();
+
+	// Attach window listeners.
+	window.onresize = _.debounce(resize, 200);
+	window.onscroll = _.debounce(resize, 200);
+
+	function showDetails() {
+		$about.removeClass('hide');
+		$toggle.removeClass('i');
+	}
+
+	function hideDetails() {
+		$about.addClass('hide');
+		$toggle.addClass('i');
+	}
+
+	// Listen for toggle click event.
+	$toggle.on('click', function(event) {
+		$toggle.hasClass('i') ? showDetails() : hideDetails();
+	});
+
+	// Pretty simple huh?
+	$scene.parallax();
+
+	// Check for orientation support.
+	setTimeout(function() {
+		if ($scene.data('mode') === 'cursor') {
+			$prompt.removeClass('hide');
+			if (window.innerWidth < 600) $toggle.addClass('hide');
+			$prompt.on('click', function(event) {
+				$prompt.addClass('hide');
+				if (window.innerWidth < 600) {
+					setTimeout(function() {
+						$toggle.removeClass('hide');
+					},1200);
+				}
+			});
+		}
+	},1000);
+
+ </script>
+
+</body>
+</html>

@@ -1,65 +1,68 @@
 Vue.component('parallax', {
 	template: `
 		<div class="parallax-container" > 
-			<img src="img/background_plus.png" alt="" :style="{ height: bgHeight + 'px', width: bgWidth + 'px', left: bgLeft + 'px', top: bgTop + 'px' }">
+			<div class="parallax" :class="divclass" :style="{ height: divheight + 'px', width: divwidth + 'px', transform: 'translate3d(' + bgLeft + 'px, ' + bgTop + 'px, 0)' }">
+				<slot></slot>
+			</div>
 		</div>
 	`,
 
 	data() {
 		return {
-			percentX: 0,
-			percentY: 0,
-			bgOHeight: 1796,
-			bgOWidth: 2964,
+			rootHeight: 1796,
+			rootWidth: 2964,
+			rootResizeRatio: 1,
+			mousePercentX: 0,
+			mousePercentY: 0,
 			bgRatio: 1,
-			bgResizeRatio: 1,
 			bgHeight: 10,
 			bgWidth: 10,
 			bgExtraY: 0,
 			bgExtraX: 0,
+
 		}
 	},
+	props: [
+		'zoomratio',
+		'divclass',
+		'divoheight',
+		'divowidth',
+		'divotop'
+	],
 
 	computed: {
-		howFarFromTop() {
-			return 30 * this.percentY;
-		},
 		bgLeft() {
-			return -(this.bgExtraX * this.percentX);
+			return -(this.bgExtraX * this.mousePercentX);
 		},
 		bgTop() {
-			return -(this.bgExtraY * this.percentY);
-
+			return -(this.bgExtraY * this.mousePercentY);
+		},
+		divheight() {
+			return this.divoheight * this.rootResizeRatio;
+		},
+		divwidth (){
+			return this.divowidth * this.rootResizeRatio;
 		}
 
 	},
 
 	methods: {
-		someMethod(event) {
-		},
-
-		saySomething(event) {
-			this.percentX = (event.pageX / window.innerWidth);
-			this.percentY = (event.pageY / window.innerHeight);
-			console.log(this.bgWidth);
-		},
-		mouseOver() {
-			console.log ('else');
+		mousePosition(event) {
+			this.mousePercentX = (event.pageX / window.innerWidth);
+			this.mousePercentY = (event.pageY / window.innerHeight);
 		},
 		calculateBackground(){
-			this.bgRatio = this.bgOWidth / this.bgOHeight;
+			this.bgRatio = this.rootWidth / this.rootHeight;
 			if (this.bgRatio > (window.innerWidth / window.innerHeight )) {
-				//take window height times 1.1 as image height
-				this.bgResizeRatio = (window.innerHeight * 1.1) / this.bgOHeight;
-				this.bgHeight = this.bgOHeight * this.bgResizeRatio;
-				this.bgWidth = this.bgOWidth * this.bgResizeRatio;
-				console.log('wider');	
+				//take window height times this.zoomratio as image height
+				this.rootResizeRatio = (window.innerHeight * this.zoomratio) / this.rootHeight;
+				this.bgHeight = this.rootHeight * this.rootResizeRatio;
+				this.bgWidth = this.rootWidth * this.rootResizeRatio;
 			} else {
-				// take window width times 1.1 as image width
-				this.bgResizeRatio = (window.innerWidth * 1.1) / this.bgOWidth;
-				this.bgHeight = this.bgOHeight * this.bgResizeRatio;
-				this.bgWidth = this.bgOWidth * this.bgResizeRatio;
-				console.log('higher' + this.bgWidth);
+				// take window width times this.zoomratio as image width
+				this.rootResizeRatio = (window.innerWidth * this.zoomratio) / this.rootWidth;
+				this.bgHeight = this.rootHeight * this.rootResizeRatio;
+				this.bgWidth = this.rootWidth * this.rootResizeRatio;
 			}
 			this.bgExtraX = this.bgWidth - window.innerWidth;
 			this.bgExtraY = this.bgHeight - window.innerHeight;
@@ -67,18 +70,16 @@ Vue.component('parallax', {
 	},
 
 	created: function() {
-		window.addEventListener('mousemove',this.saySomething);
 		this.calculateBackground();
+		window.addEventListener('mousemove',this.mousePosition);
 		window.addEventListener('resize', this.calculateBackground);
 	},
-
 	mounted () {
 	}
 });
 
 new Vue({
 	el: '#root',
-
 
 })
 

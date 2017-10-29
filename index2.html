@@ -36,14 +36,67 @@
 <body>
 
 <div id="root">
-	<parallax></parallax>
-
+	<div class="wildeintro--container" id="wildeintro--container">
+		<div class="wildeintro--text">
+			<a href="#" id="wildeintro--close">X</a>
+			<h2>>>De drive om te winnen</h2>
+			<p>Genomineerd worden, in the picture staan en dan ook nog eens winnen. Het lijkt heel vanzelfsprekend maar dat is het niet. Voor De Wilde kwam de nominatie als een verrassing. Sterker nog, legt Jeroen de Wilde uit: ‘We wisten niet eens waar we aan begonnen. Toch zijn we er vanaf het begin vol ingegaan. Want, als je meedoet, ga je ervoor.’ Een eigenschap, die we bij alle medewerkers van De Wilde tegenkomen.</p> 
+			<p> Lees dit artikel verder >> of klik op een ander item. </p>
+		</div>
+	</div>
+	<parallax zoomratio="1.1" divclass="background" divoheight="1796" divowidth="2964" divotop="0">
+		<a href="verleden.html" class="background--quality--link">
+			<div class="monument background--quality">
+				<div class="monument--label background--label">Verbinden met verleden</div>
+			</div>
+		</a>
+		<a href="landelijk.html" class="background--quality--link">
+			<div class="vliegtuig background--quality">
+				<div class="vliegtuig--label background--label">Landelijk grote projecten</div>
+			</div>
+		</a>
+		<a href="#" class="background--quality--link">
+			<div class="spoorbrug background--quality">
+				<div class="spoorbrug--label background--label">Verbindt betrokken partijen</div>
+			</div>
+		</a>
+		<a href="#" class="background--quality--link">
+			<div class="zuidas background--quality">
+				<div class="zuidas--label background--label">Sterke positie in grondprojecten</div>
+			</div>
+		</a>
+		<a href="#" class="background--quality--link">
+			<div class="voetbal background--quality">
+				<div class="voetbal--label background--label">Regionaal betrokken</div>
+			</div>
+		</a>
+	</parallax>
+	<parallax zoomratio="1.12" divclass="parallax--ttl" divoheight="1796" divowidth="2964" divotop="0">
+			<img src="img/ttl.png" alt="" class="ttl" id="ttl"/>
+	</parallax>
 </div>
 
 
 	<!-- Scripts -->
 	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
 	<script src="js/main.js"></script>
+	<script>
+		var overlay = document.getElementById("wildeintro--container");
+		document.getElementById("ttl").addEventListener("click", showOverlay);
+		document.getElementById("wildeintro--close").addEventListener("click", hideOverlay);
+		overlay.addEventListener("click", hideOverlay);
+
+		function showOverlay() {
+		    overlay.style.display = "block";
+		}
+
+		function hideOverlay () {
+		    overlay.style.display = "none";
+		}
+
+
+	</script>
+	<script src="js/scripts.js"></script>
 
 
 </body>
