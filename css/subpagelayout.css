@@ -16,6 +16,22 @@
 	background-image: url(../img/background_verleden.jpg);
 }
 
+.background--betrokken {
+	background-image: url(../img/background_betrokken.jpg);
+}
+
+.background--grondprojecten {
+	background-image: url(../img/background_grondprojecten.jpg);
+}
+
+.background--partijen {
+	background-image: url(../img/background_partijen.jpg);
+}
+
+.background--verleden {
+	background-image: url(../img/background_verleden.jpg);
+}
+
 
 img.logo {
 	width: 15rem;

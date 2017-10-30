@@ -2,13 +2,13 @@
 	include 'partials/header.php';
  ?>
 
-	<div class="background--subpage background--verleden ">
+	<div class="background--subpage background--partijen ">
 	</div>
 	<div class="wrapper">
 		<div class="content">
 			<img src="img/wilde_logo.png" alt="" class="logo">
 			<div class="content--head">
-				<h2>Landelijk Grote projecten</h2>
+				<h2>Verbindt betrokken partijen</h2>
 				<div class="social--icons">
 					<a href="#"><img src="img/social_facebook.png" alt=""/></a>
 					<a href="#"><img src="img/social_twitter.png" alt=""/></a>
@@ -16,44 +16,22 @@
 				</div>
 			</div>
 			<div class="content--body">
-				<p>Lorem ipsum dolor sit amet, eam at vide nemore, ceteros iudicabit no vis, erat ipsum in nam. Ignota maiestatis definiebas sit id, mazim timeam evertitur cum eu. Ut mei docendi voluptua laboramus, ea dicat mandamus eos. Vim id quaerendum dissentiet, vel ex latine facilisis, alia fuisset salutatus ut quo. Sea ei assum platonem, in agam iudico copiosae est. Ex ius nibh vocibus urbanitas.</p>
-
-				<p>Ad veniam vocibus nec. Feugiat periculis referrentur cum no, pro eu fugit fabulas dolorem, vel aliquam moderatius ea. Congue alienum erroribus ea mea, alii inciderint cu cum. Cetero scripserit usu an, congue virtute quo te. No pro nulla aliquam, simul malorum meliore in eos, ea sit dicam laudem.</p>
+				<p>Joep Bloedje is managing director van De Wilde Ingenieurs Groep. Als jong broekie begon hij ruim 15 jaar geleden als stagiair bij De Wilde. Joep is ambiteus. Zo ambiteus zelfs, dat Jeroen de Wilde, de totale bedrijfvoering van de Ingenieurs groep aan al een aantal jaar aan hem over laat.</p>
 			</div>
 			<div class="content--links">
-				<a href="#test-popup" class="linkblock open-popup-link">
-					<div>
-						<div class="linkblock--visual">
-							<img src="img/passie.png" alt=""/>
-							<img src="img/video_play.png" alt="" class="linkblock--icon linkblock--icon--video">
-						</div>
-						<div class="linkblock--description">
-							Bekijk: "Passie geeft ruimte voor success"
-						</div>
-					</div>
-				</a>
-				<a href="pdf/factsheet - verleden.pdf" class="linkblock">
+				<a href="pdf/verbinden betekent vertrouwen.pdf" class="linkblock">
 					<div>
 						<div class="linkblock--visual">
 							<img src="img/joep.png" alt=""/>
 							<img src="img/pdf_read.png" alt="" class="linkblock--icon linkblock--icon--document">
 						</div>
 						<div class="linkblock--description">
-							Joep: &lsquo;Je moet echt doen wat je leuk vindt.&rsquo;
+							Verbinden betekent vertrouwen en loslaten
 						</div>
 					</div>
 				</a>
-				<a href="pdf/projectsheet verleden De Boerderij V1.pdf" class="linkblock">
-					<div >
-						<div class="linkblock--visual">
-							<img src="img/restauratie.png" alt=""/>
-							<img src="img/doc_read.png" alt="" class="linkblock--icon linkblock--icon--document">
-						</div>
-						<div class="linkblock--description">
-							Lees: overzicht van restauratieprojecten
-						</div>
-					</div>
-				</a>
+				<div class="linkblock"></div>
+				<div class="linkblock"></div>
 			</div>
 
 		</div>

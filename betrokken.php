@@ -2,13 +2,13 @@
 	include 'partials/header.php';
  ?>
 
-	<div class="background--subpage background--verleden ">
+	<div class="background--subpage background--betrokken ">
 	</div>
 	<div class="wrapper">
 		<div class="content">
 			<img src="img/wilde_logo.png" alt="" class="logo">
 			<div class="content--head">
-				<h2>Landelijk Grote projecten</h2>
+				<h2>Regionaal betrokken</h2>
 				<div class="social--icons">
 					<a href="#"><img src="img/social_facebook.png" alt=""/></a>
 					<a href="#"><img src="img/social_twitter.png" alt=""/></a>
@@ -16,41 +16,40 @@
 				</div>
 			</div>
 			<div class="content--body">
-				<p>Lorem ipsum dolor sit amet, eam at vide nemore, ceteros iudicabit no vis, erat ipsum in nam. Ignota maiestatis definiebas sit id, mazim timeam evertitur cum eu. Ut mei docendi voluptua laboramus, ea dicat mandamus eos. Vim id quaerendum dissentiet, vel ex latine facilisis, alia fuisset salutatus ut quo. Sea ei assum platonem, in agam iudico copiosae est. Ex ius nibh vocibus urbanitas.</p>
-
-				<p>Ad veniam vocibus nec. Feugiat periculis referrentur cum no, pro eu fugit fabulas dolorem, vel aliquam moderatius ea. Congue alienum erroribus ea mea, alii inciderint cu cum. Cetero scripserit usu an, congue virtute quo te. No pro nulla aliquam, simul malorum meliore in eos, ea sit dicam laudem.</p>
+				<p>De Wilde sponsort een groot aantal verenigingen en clubs in de regio IJmond. Dat creëert natuurlijk exposure maar het is niet de voornaamste reden om clubs in de regio te ondersteunen.</p>
+				<p> De Wilde ingenieurs groep voelt zich vooral betrokken met alles dat zich in de regio IJmond afspeelt. Want hier wonen, werken en recreëren medewerkers en klanten en kinderen, familie en vrienden van medewerkers en klanten. </p>
 			</div>
 			<div class="content--links">
-				<a href="#test-popup" class="linkblock open-popup-link">
-					<div>
-						<div class="linkblock--visual">
-							<img src="img/passie.png" alt=""/>
-							<img src="img/video_play.png" alt="" class="linkblock--icon linkblock--icon--video">
-						</div>
-						<div class="linkblock--description">
-							Bekijk: "Passie geeft ruimte voor success"
-						</div>
-					</div>
-				</a>
-				<a href="pdf/factsheet - verleden.pdf" class="linkblock">
+				<a href="pdf/factsheet - sponsoractiviteiten.pdf" class="linkblock">
 					<div>
 						<div class="linkblock--visual">
 							<img src="img/joep.png" alt=""/>
 							<img src="img/pdf_read.png" alt="" class="linkblock--icon linkblock--icon--document">
 						</div>
 						<div class="linkblock--description">
-							Joep: &lsquo;Je moet echt doen wat je leuk vindt.&rsquo;
+							Sponsoractivieteiten
 						</div>
 					</div>
 				</a>
-				<a href="pdf/projectsheet verleden De Boerderij V1.pdf" class="linkblock">
+				<a href="#" class="linkblock">
 					<div >
 						<div class="linkblock--visual">
 							<img src="img/restauratie.png" alt=""/>
-							<img src="img/doc_read.png" alt="" class="linkblock--icon linkblock--icon--document">
+							<img src="img/pdf_read.png" alt="" class="linkblock--icon linkblock--icon--document">
 						</div>
 						<div class="linkblock--description">
-							Lees: overzicht van restauratieprojecten
+							Rotary
+						</div>
+					</div>
+				</a>
+				<a href="#" class="linkblock">
+					<div >
+						<div class="linkblock--visual">
+							<img src="img/restauratie.png" alt=""/>
+							<img src="img/pdf_read.png" alt="" class="linkblock--icon linkblock--icon--document">
+						</div>
+						<div class="linkblock--description">
+							Ovijmond
 						</div>
 					</div>
 				</a>

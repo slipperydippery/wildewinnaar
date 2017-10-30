@@ -44,7 +44,7 @@
 				<a href="#test-popup" class="linkblock open-popup-link">
 					<div>
 						<div class="linkblock--visual">
-							<img src="img/passie.png" alt=""/>
+							<img src="img/winnend.jpg" alt=""/>
 							<img src="img/video_play.png" alt="" class="linkblock--icon linkblock--icon--video">
 						</div>
 						<div class="linkblock--description">
@@ -56,10 +56,10 @@
 
 		</div>
 		<div id="test-popup" class="player mfp-hide">
-			<video id="example_video_1" class="video-js vjs-default-skin" controls preload="auto"
+			<video id="example_video_1" class="video-js	 vjs-default-skin" controls preload="auto"
 			style="height:auto; width:100%"
 			data-setup="{}">
-			<source src="http://vjs.zencdn.net/v/oceans.mp4" type='video/mp4' />
+			<source src="video/IJmond Onderneemt De Wilde 2016.mov" type='video/mp4' />
 			<p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
 			</video>
 		</div>

@@ -16,44 +16,32 @@
 				</div>
 			</div>
 			<div class="content--body">
-				<p>Lorem ipsum dolor sit amet, eam at vide nemore, ceteros iudicabit no vis, erat ipsum in nam. Ignota maiestatis definiebas sit id, mazim timeam evertitur cum eu. Ut mei docendi voluptua laboramus, ea dicat mandamus eos. Vim id quaerendum dissentiet, vel ex latine facilisis, alia fuisset salutatus ut quo. Sea ei assum platonem, in agam iudico copiosae est. Ex ius nibh vocibus urbanitas.</p>
-
-				<p>Ad veniam vocibus nec. Feugiat periculis referrentur cum no, pro eu fugit fabulas dolorem, vel aliquam moderatius ea. Congue alienum erroribus ea mea, alii inciderint cu cum. Cetero scripserit usu an, congue virtute quo te. No pro nulla aliquam, simul malorum meliore in eos, ea sit dicam laudem.</p>
+				<p>Oiltanking Amsterdam is een bedrijf waar 1.6 m3 miljoen liter brandstof wordt opgeslagen in 100 verschillende tanks. Het is de grootste benzine opslag van Europa. De Wilde Ingenieurs Groep heeft vorig jaar de opdracht binnen gehaald om alle bodemonderzoekswerkzaamheden te verrichten.</p>
 			</div>
 			<div class="content--links">
-				<a href="#test-popup" class="linkblock open-popup-link">
-					<div>
-						<div class="linkblock--visual">
-							<img src="img/passie.png" alt=""/>
-							<img src="img/video_play.png" alt="" class="linkblock--icon linkblock--icon--video">
-						</div>
-						<div class="linkblock--description">
-							Bekijk: "Passie geeft ruimte voor success"
-						</div>
-					</div>
-				</a>
-				<a href="pdf/factsheet - verleden.pdf" class="linkblock">
+				<a href="pdf/projectsheet Joep Amsterdam Oiltanking.pdf" class="linkblock">
 					<div>
 						<div class="linkblock--visual">
 							<img src="img/joep.png" alt=""/>
 							<img src="img/pdf_read.png" alt="" class="linkblock--icon linkblock--icon--document">
 						</div>
 						<div class="linkblock--description">
-							Joep: &lsquo;Je moet echt doen wat je leuk vindt.&rsquo;
+							Van de due aantotnen we zijn de beste
 						</div>
 					</div>
 				</a>
-				<a href="pdf/projectsheet verleden De Boerderij V1.pdf" class="linkblock">
+				<a href="pdf/pfactsheet - landelijk grote projecten op een rijtje.pdf" class="linkblock">
 					<div >
 						<div class="linkblock--visual">
 							<img src="img/restauratie.png" alt=""/>
-							<img src="img/doc_read.png" alt="" class="linkblock--icon linkblock--icon--document">
+							<img src="img/pdf_read.png" alt="" class="linkblock--icon linkblock--icon--document">
 						</div>
 						<div class="linkblock--description">
-							Lees: overzicht van restauratieprojecten
+							Lees: Landelijk grote projecten op een rijtje
 						</div>
 					</div>
 				</a>
+				<div class="linkblock"></div>
 			</div>
 
 		</div>

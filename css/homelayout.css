@@ -167,3 +167,12 @@
     white-space: nowrap;
 	transition: all .5s;
 }
+
+.introtext {
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    width: 50%;
+    background: rgba(0,0,0,0.3);
+    padding: 1rem;
+}
