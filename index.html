@@ -16,130 +16,87 @@
 	<meta name="keywords" content="Jeroen de Wilde">
 
 	<!-- Styles -->
-	<link rel="stylesheet" type="text/css" href="css/app.css"/>
 	<link rel="stylesheet" type="text/css" href="css/layout.css"/>
-	<link rel="stylesheet" type="text/css" href="css/layouthome.css"/>
+	<link rel="stylesheet" type="text/css" href="css/homelayout.css"/>
+
 
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 	<link rel="shortcut icon" href="/favicon.png" type="image/png">
 	<link rel="shortcut icon" href="http://wagerfield.github.io/parallax/favicon.png" type="image/png">
+
+	<style type="text/css">
+		.is-loading {
+			color: red;
+		}
+		.is-complete {
+			color: blue;
+			text-decoration: line-through;
+		}
+	</style>
 </head>
 <body>
 
-	<div id="fb-root"></div>
-
-	<div id="container" class="wrapper">
-		<ul id="scene" class="scene unselectable"
-			data-friction-x="0.1"
-			data-friction-y="0.1"
-			data-scalar-x="25"
-			data-scalar-y="15">
-			<li class="layer" data-depth="0.10">
-				<div class="backtest">
-					<img src="/img/background_plus.png" alt="" class="backtest--back">
-					<a href="verleden.html" class="verleden">hallo</a>
-				</div>
-			</li>
-			<li class="layer" data-depth="0.1">
-				
-			</li>
-			<li class="layer" data-depth="0.05">
-				<img src="/img/ttl.png" alt="De geheimen van de Wilde Winnaar" class="home_title">
-			</li>
-
-			<li class="layer" data-depth="0.60">
-				<ul class="rope depth-60">
-					<a href="#" class="top">top</a>
-					<li><img src="/img/faddil.png" alt="Rope"></li>
-				</ul>
-			</li>
-		</ul>
-		
+<div id="root">
+	<div class="wildeintro--container" id="wildeintro--container">
+		<div class="wildeintro--text">
+			<a href="#" id="wildeintro--close">X</a>
+			<h2>>>De drive om te winnen</h2>
+			<p>Genomineerd worden, in the picture staan en dan ook nog eens winnen. Het lijkt heel vanzelfsprekend maar dat is het niet. Voor De Wilde kwam de nominatie als een verrassing. Sterker nog, legt Jeroen de Wilde uit: ‘We wisten niet eens waar we aan begonnen. Toch zijn we er vanaf het begin vol ingegaan. Want, als je meedoet, ga je ervoor.’ Een eigenschap, die we bij alle medewerkers van De Wilde tegenkomen.</p> 
+			<p> Lees dit artikel verder >> of klik op een ander item. </p>
+		</div>
 	</div>
+	<parallax zoomratio="1.1" divclass="background" divoheight="1796" divowidth="2964" divotop="0">
+		<a href="verleden.php" class="background--quality--link">
+			<div class="monument background--quality">
+				<div class="monument--label background--label">Verbinden met verleden</div>
+			</div>
+		</a>
+		<a href="landelijk.php" class="background--quality--link">
+			<div class="vliegtuig background--quality">
+				<div class="vliegtuig--label background--label">Landelijk grote projecten</div>
+			</div>
+		</a>
+		<a href="partijen.php" class="background--quality--link">
+			<div class="spoorbrug background--quality">
+				<div class="spoorbrug--label background--label">Verbindt betrokken partijen</div>
+			</div>
+		</a>
+		<a href="grondprojecten.php" class="background--quality--link">
+			<div class="zuidas background--quality">
+				<div class="zuidas--label background--label">Sterke positie in grondprojecten</div>
+			</div>
+		</a>
+		<a href="betrokken.php" class="background--quality--link">
+			<div class="voetbal background--quality">
+				<div class="voetbal--label background--label">Regionaal betrokken</div>
+			</div>
+		</a>
+	</parallax>
+	<parallax zoomratio="1.12" divclass="parallax--ttl" divoheight="1796" divowidth="2964" divotop="0">
+			<a href="geheimen.php"><img src="img/ttl.png" alt="" class="ttl" id="ttl"/></a>
+	</parallax>
+</div>
+
 
 	<!-- Scripts -->
-	<script src="/js/libraries.min.js"></script>
-	<script src="js/jquery.parallax.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+	<script src="js/main.js"></script>
 	<script>
+		// var overlay = document.getElementById("wildeintro--container");
+		// document.getElementById("ttl").addEventListener("click", showOverlay);
+		// document.getElementById("wildeintro--close").addEventListener("click", hideOverlay);
+		// overlay.addEventListener("click", hideOverlay);
 
-	// jQuery Selections
-	var $html = $('html'),
-			$container = $('#container'),
-			$prompt = $('#prompt'),
-			$toggle = $('#toggle'),
-			$about = $('#about'),
-			$scene = $('#scene');
-
-	// Hide browser menu.
-	(function() {
-		setTimeout(function(){window.scrollTo(0,0);},0);
-	})();
-
-	// Setup FastClick.
-	FastClick.attach(document.body);
-
-	// Add touch functionality.
-	if (Hammer.HAS_TOUCHEVENTS) {
-		$container.hammer({drag_lock_to_axis: true});
-		_.tap($html, 'a,button,[data-tap]');
-	}
-
-	// Add touch or mouse class to html element.
-	$html.addClass(Hammer.HAS_TOUCHEVENTS ? 'touch' : 'mouse');
-
-	// Resize handler.
-	(resize = function() {
-		$scene[0].style.width = window.innerWidth + 'px';
-		$scene[0].style.height = window.innerHeight + 'px';
-		if (!$prompt.hasClass('hide')) {
-			if (window.innerWidth < 600) {
-				$toggle.addClass('hide');
-			} else {
-				$toggle.removeClass('hide');
-			}
-		}
-	})();
-
-	// Attach window listeners.
-	window.onresize = _.debounce(resize, 200);
-	window.onscroll = _.debounce(resize, 200);
-
-	function showDetails() {
-		$about.removeClass('hide');
-		$toggle.removeClass('i');
-	}
-
-	function hideDetails() {
-		$about.addClass('hide');
-		$toggle.addClass('i');
-	}
-
-	// Listen for toggle click event.
-	$toggle.on('click', function(event) {
-		$toggle.hasClass('i') ? showDetails() : hideDetails();
-	});
-
-	// Pretty simple huh?
-	$scene.parallax();
-
-	// Check for orientation support.
-	setTimeout(function() {
-		if ($scene.data('mode') === 'cursor') {
-			$prompt.removeClass('hide');
-			if (window.innerWidth < 600) $toggle.addClass('hide');
-			$prompt.on('click', function(event) {
-				$prompt.addClass('hide');
-				if (window.innerWidth < 600) {
-					setTimeout(function() {
-						$toggle.removeClass('hide');
-					},1200);
-				}
-			});
-		}
-	},1000);
-
+		// function showOverlay() {
+		//     overlay.style.display = "block";
+		// }
+		// function hideOverlay () {
+		//     overlay.style.display = "none";
+		// }
 	</script>
+	<script src="js/scripts.js"></script>
+
 
 </body>
 </html>
