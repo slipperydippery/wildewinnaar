@@ -18,39 +18,39 @@
 			<div class="content--body">
 				<p>Het lijkt wat ver gezocht. Monumenten restaureren als belangrijke tak van een ingenieursbureau. Want zo op het eerste gezicht hebben monumenten niets te maken met kwaliteit, arbo, milieu en veiligheid. Maar zo ver ligt het niet af van alles dat te maken heeft met De Wilde Ingenieurs Groep. In deze bijzondere specialisatie ligt misschien wel de kern en de kracht van alles dat De Wilde Ingenieurs Groep doet. </p>
 
-				<p>Lees dit artikel verder >> of klik op een ander item.</p>
+				<p><a href="pdf/interview verleden bron succes V1.pdf">Lees dit artikel verder >></a> of klik op een ander item.</p>
 			</div>
 			<div class="content--links">
 				<a href="pdf/interview verleden bron succes V1.pdf" class="linkblock">
 					<div>
 						<div class="linkblock--visual">
-							<img src="img/joep.png" alt=""/>
+							<img src="img/verledenbron.png" alt=""/>
 							<img src="img/pdf_read.png" alt="" class="linkblock--icon linkblock--icon--document">
 						</div>
 						<div class="linkblock--description">
-							Joep: &lsquo;Je moet doen wat je leuk vindt.&rsquo;
+							Lees: Jeroen de Wilde vertelt waarom het verleden een basis is voor voor zijn succes
 						</div>
 					</div>
 				</a>
 				<a href="pdf/factsheet - verleden.pdf" class="linkblock">
 					<div >
 						<div class="linkblock--visual">
-							<img src="img/restauratie.png" alt=""/>
+							<img src="img/verledenprojecten.png" alt=""/>
 							<img src="img/pdf_read.png" alt="" class="linkblock--icon linkblock--icon--document">
 						</div>
 						<div class="linkblock--description">
-							Lees: overzicht van restauratieprojecten
+							Lees: Overzicht van een aantal mooie restauratieprojecten
 						</div>
 					</div>
 				</a>
 				<a href="pdf/projectsheet verleden De Boerderij V1.pdf" class="linkblock">
 					<div >
 						<div class="linkblock--visual">
-							<img src="img/restauratie.png" alt=""/>
+							<img src="img/verledendromen.png" alt=""/>
 							<img src="img/pdf_read.png" alt="" class="linkblock--icon linkblock--icon--document">
 						</div>
 						<div class="linkblock--description">
-							Lees: Jaag je dromen na
+							Lees: De restauratie van tot luxe vakantieboerderij is de droom van Jeroen
 						</div>
 					</div>
 				</a>
@@ -61,7 +61,7 @@
 							<img src="img/video_play.png" alt="" class="linkblock--icon linkblock--icon--video">
 						</div>
 						<div class="linkblock--description">
-							Bekijk: "Passie geeft ruimte voor success"
+							Bekijk: film restauratie tuindershuisje de Vlotter
 						</div>
 					</div>
 				</a>

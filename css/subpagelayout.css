@@ -80,6 +80,10 @@ img.logo {
 	margin-bottom: 2rem;
 }
 
+.linkblock--visual {
+	position: relative;
+}
+
 .linkblock--icon {
 	position: absolute;
 	width: 3rem;
@@ -87,7 +91,7 @@ img.logo {
 }
 
 .linkblock--icon--document {
-	bottom: 6rem;
+	bottom: 1rem;
 	left: 1rem;
 }
 

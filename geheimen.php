@@ -22,7 +22,7 @@
 				<a href="pdf/De drive om te winnen.pdf" class="linkblock">
 					<div>
 						<div class="linkblock--visual">
-							<img src="img/joep.png" alt=""/>
+							<img src="img/geheimdrive.png" alt=""/>
 							<img src="img/pdf_read.png" alt="" class="linkblock--icon linkblock--icon--document">
 						</div>
 						<div class="linkblock--description">
@@ -33,7 +33,7 @@
 				<a href="pdf/Publiciteit rondom de award.pdf" class="linkblock">
 					<div >
 						<div class="linkblock--visual">
-							<img src="img/restauratie.png" alt=""/>
+							<img src="img/geheimenpubliciteit.png" alt=""/>
 							<img src="img/pdf_read.png" alt="" class="linkblock--icon linkblock--icon--document">
 						</div>
 						<div class="linkblock--description">
@@ -44,7 +44,7 @@
 				<a href="#test-popup" class="linkblock open-popup-link">
 					<div>
 						<div class="linkblock--visual">
-							<img src="img/winnend.jpg" alt=""/>
+							<img src="img/geheimfilm.png" alt=""/>
 							<img src="img/video_play.png" alt="" class="linkblock--icon linkblock--icon--video">
 						</div>
 						<div class="linkblock--description">

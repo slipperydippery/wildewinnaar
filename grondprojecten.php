@@ -8,7 +8,7 @@
 		<div class="content">
 			<img src="img/wilde_logo.png" alt="" class="logo">
 			<div class="content--head">
-				<h2>Sterke positie in grondprojecten</h2>
+				<h2>Projecten in de randstad</h2>
 				<div class="social--icons">
 					<a href="#"><img src="img/social_facebook.png" alt=""/></a>
 					<a href="#"><img src="img/social_twitter.png" alt=""/></a>

@@ -17,27 +17,28 @@
 			</div>
 			<div class="content--body">
 				<p>Oiltanking Amsterdam is een bedrijf waar 1.6 m3 miljoen liter brandstof wordt opgeslagen in 100 verschillende tanks. Het is de grootste benzine opslag van Europa. De Wilde Ingenieurs Groep heeft vorig jaar de opdracht binnen gehaald om alle bodemonderzoekswerkzaamheden te verrichten.</p>
+				<p><a href="pdf/projectsheet Joep Amsterdam Oiltanking.pdf">Lees dit artikel verder >></a> of klik op een ander item.</p>	
 			</div>
 			<div class="content--links">
 				<a href="pdf/projectsheet Joep Amsterdam Oiltanking.pdf" class="linkblock">
 					<div>
 						<div class="linkblock--visual">
-							<img src="img/joep.png" alt=""/>
+							<img src="img/landelijkdebeste.png" alt=""/>
 							<img src="img/pdf_read.png" alt="" class="linkblock--icon linkblock--icon--document">
 						</div>
 						<div class="linkblock--description">
-							Van de due aantotnen we zijn de beste
+							Lees: Joep Bloedjes vertelt hoe De Wilde Ingenieurs een aanbesteding heeft gewonnen van drie grote concurrenten
 						</div>
 					</div>
 				</a>
 				<a href="pdf/pfactsheet - landelijk grote projecten op een rijtje.pdf" class="linkblock">
 					<div >
 						<div class="linkblock--visual">
-							<img src="img/restauratie.png" alt=""/>
+							<img src="img/landelijkprojecten.png" alt=""/>
 							<img src="img/pdf_read.png" alt="" class="linkblock--icon linkblock--icon--document">
 						</div>
 						<div class="linkblock--description">
-							Lees: Landelijk grote projecten op een rijtje
+							Lees: Overzicht van een aantal mooie landelijke projecten
 						</div>
 					</div>
 				</a>

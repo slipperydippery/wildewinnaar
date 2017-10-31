@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html, body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    height: 100vh;
+    width: 160vh;
+    margin: 0;
+}
+
+body{
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.parallax-container {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+	background: grey;
+}
+
+.parallax-container img {
+	position: absolute;
+	transition: all .2s;
+}
+
+.ttl {
+	position: absolute;
+    width: 36%;
+    left: 30%;
+    top: 7%;
+}
+
+.background {
+	position: absolute;
+	width: 110%;
+	height: 110zpzp;
+	background: url(/img/background.jpg) no-repeat 50% 50%;
+	background-size: cover;
+	background: green;
+}
+
+.background img {
+	width: 100%;
+	height: 100%;
+	user-select: none;
+	display: none;
+}
+
+.background--quality {
+	position: absolute;
+	background-size: cover;
+	background-blend-mode: multiply;
+}
+
+.background .monument {
+    top: 57.1%;
+    left: 12.8%;
+    width: 8.6%;
+    height: 7%;
+	background: url(/img/monument.png) no-repeat 50% 50%;
+	background-size: cover;
+}
+
+.background .vliegtuig {
+    top: 37.1%;
+    left: 70%;
+    width: 14.3%;
+    height: 13%;
+	background: url(/img/vliegtuig.png) no-repeat 50% 50%;
+	background-size: cover;
+}
+
+.background .spoorbrug {
+    top: 59.6%;
+    left: 84%;
+    width: 16.3%;
+    height: 6%;
+	background: url(/img/spoorbrug.png) no-repeat 50% 50%;
+	background-size: cover;
+	opacity: .6;
+}
+
+.background .zuidas {
+    top: 53.6%;
+    left: 52%;
+    width: 8.3%;
+    height: 11%;
+	background: url(/img/zuidas.png) no-repeat 50% 50%;
+	background-size: cover;
+	opacity: .7;
+}
+
+.background .voetbal {
+    top: 57.9%;
+    left: 31.6%;
+    width: 7.4%;
+    height: 9%;
+	background: url(/img/voetbal.png) no-repeat 50% 50%;
+	background-size: cover;
+}
+
+.background--label {
+	position: absolute;
+	top: -51px;
+    left: -19px;
+	background: #524e49;
+	color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: .8rem;
+    padding: .5rem 2rem;
+    white-space: nowrap;
+
+}

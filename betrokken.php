@@ -18,38 +18,17 @@
 			<div class="content--body">
 				<p>De Wilde sponsort een groot aantal verenigingen en clubs in de regio IJmond. Dat creëert natuurlijk exposure maar het is niet de voornaamste reden om clubs in de regio te ondersteunen.</p>
 				<p> De Wilde ingenieurs groep voelt zich vooral betrokken met alles dat zich in de regio IJmond afspeelt. Want hier wonen, werken en recreëren medewerkers en klanten en kinderen, familie en vrienden van medewerkers en klanten. </p>
+				<p><a href="pdf/factsheet - sponsoractiviteiten.pdf">Lees dit artikel verder >></a> of klik op een ander item.</p>	
 			</div>
 			<div class="content--links">
 				<a href="pdf/factsheet - sponsoractiviteiten.pdf" class="linkblock">
 					<div>
 						<div class="linkblock--visual">
-							<img src="img/joep.png" alt=""/>
+							<img src="img/regionaalprojecten.png" alt=""/>
 							<img src="img/pdf_read.png" alt="" class="linkblock--icon linkblock--icon--document">
 						</div>
 						<div class="linkblock--description">
-							Sponsoractivieteiten
-						</div>
-					</div>
-				</a>
-				<a href="#" class="linkblock">
-					<div >
-						<div class="linkblock--visual">
-							<img src="img/restauratie.png" alt=""/>
-							<img src="img/pdf_read.png" alt="" class="linkblock--icon linkblock--icon--document">
-						</div>
-						<div class="linkblock--description">
-							Rotary
-						</div>
-					</div>
-				</a>
-				<a href="#" class="linkblock">
-					<div >
-						<div class="linkblock--visual">
-							<img src="img/restauratie.png" alt=""/>
-							<img src="img/pdf_read.png" alt="" class="linkblock--icon linkblock--icon--document">
-						</div>
-						<div class="linkblock--description">
-							Ovijmond
+							Lees: Overzicht van  alle sponsoractiviteiten
 						</div>
 					</div>
 				</a>
