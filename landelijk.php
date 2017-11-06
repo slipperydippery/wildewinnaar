@@ -6,13 +6,13 @@
 	</div>
 	<div class="wrapper">
 		<div class="content">
-			<img src="img/wilde_logo.png" alt="" class="logo">
+			<a href="index.html"><img src="img/ttl.png" alt="" class="logo"></a>
 			<div class="content--head">
-				<h2>Landelijk Grote projecten</h2>
+				<h2>Landelijk grote projecten</h2>
 				<div class="social--icons">
-					<a href="#"><img src="img/social_facebook.png" alt=""/></a>
-					<a href="#"><img src="img/social_twitter.png" alt=""/></a>
-					<a href="#"><img src="img/social_linkedin.png" alt=""/></a>
+					<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//wildewinnaar.app/landelijk.php"><img src="img/social_facebook.png" alt=""/></a>
+					<a href="https://twitter.com/home?status=De%20Wilde%20Ingenieursgroep%20schrijft%20interessante%20artikelen%20over%20ondernemen.%20Kijk%20hier%20eens%20naar%3A%0Ahttp%3A//wildewinnaar.app/landelijk.php"><img src="img/social_twitter.png" alt=""/></a>
+					<a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//wildewinnaar.app/landelijk.php&title=De%20Wilde%20Winnaar%20-%20Landelijk%20grote%20projecten&summary=&source="><img src="img/social_linkedin.png" alt=""/></a>
 				</div>
 			</div>
 			<div class="content--body">
@@ -27,7 +27,7 @@
 							<img src="img/pdf_read.png" alt="" class="linkblock--icon linkblock--icon--document">
 						</div>
 						<div class="linkblock--description">
-							Lees: Joep Bloedjes vertelt hoe De Wilde Ingenieurs een aanbesteding heeft gewonnen van drie grote concurrenten
+							Lees: Hoe De Wilde Ingenieurs een aanbesteding heeft gewonnen.
 						</div>
 					</div>
 				</a>
@@ -38,7 +38,7 @@
 							<img src="img/pdf_read.png" alt="" class="linkblock--icon linkblock--icon--document">
 						</div>
 						<div class="linkblock--description">
-							Lees: Overzicht van een aantal mooie landelijke projecten
+							Lees: Overzicht van een aantal mooie landelijke projecten.
 						</div>
 					</div>
 				</a>
