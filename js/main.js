@@ -12,8 +12,8 @@ Vue.component('parallax', {
 			rootHeight: 1796,
 			rootWidth: 2964,
 			rootResizeRatio: 1,
-			mousePercentX: 0,
-			mousePercentY: 0,
+			mousePercentX: .50,
+			mousePercentY: .50,
 			bgRatio: 1,
 			bgHeight: 10,
 			bgWidth: 10,
@@ -51,6 +51,11 @@ Vue.component('parallax', {
 			this.mousePercentX = (event.pageX / window.innerWidth);
 			this.mousePercentY = (event.pageY / window.innerHeight);
 		},
+		handleTouchStart(event) {
+			event.preventDefault();
+			this.mousePercentX = (event.pageX / window.innerWidth);
+			this.mousePercentY = (event.pageY / window.innerHeight);
+		},
 		calculateBackground(){
 			this.bgRatio = this.rootWidth / this.rootHeight;
 			if (this.bgRatio > (window.innerWidth / window.innerHeight )) {
@@ -72,6 +77,7 @@ Vue.component('parallax', {
 	created: function() {
 		this.calculateBackground();
 		window.addEventListener('mousemove',this.mousePosition);
+		window.addEventListener('touchstart',this.handleTouchStart);
 		window.addEventListener('resize', this.calculateBackground);
 	},
 	mounted () {
