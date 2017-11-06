@@ -6,13 +6,13 @@
 	</div>
 	<div class="wrapper">
 		<div class="content">
-			<img src="img/wilde_logo.png" alt="" class="logo">
+			<a href="index.html"><img src="img/ttl.png" alt="" class="logo"></a>
 			<div class="content--head">
 				<h2>Verbinden heden met verleden</h2>
 				<div class="social--icons">
-					<a href="#"><img src="img/social_facebook.png" alt=""/></a>
-					<a href="#"><img src="img/social_twitter.png" alt=""/></a>
-					<a href="#"><img src="img/social_linkedin.png" alt=""/></a>
+					<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//wildewinnaar.app/verleden.php"><img src="img/social_facebook.png" alt=""/></a>
+					<a href="https://twitter.com/home?status=De%20Wilde%20Ingenieursgroep%20schrijft%20interessante%20artikelen%20over%20ondernemen.%20Kijk%20hier%20eens%20naar%3A%0Ahttp%3A//wildewinnaar.app/verleden.php"><img src="img/social_twitter.png" alt=""/></a>
+					<a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//wildewinnaar.app/verleden.php&title=De%20Wilde%20Winnaar%20-%20Verbinden%20heden%20met%20verleden&summary=&source="><img src="img/social_linkedin.png" alt=""/></a>
 				</div>
 			</div>
 			<div class="content--body">
@@ -28,7 +28,7 @@
 							<img src="img/pdf_read.png" alt="" class="linkblock--icon linkblock--icon--document">
 						</div>
 						<div class="linkblock--description">
-							Lees: Jeroen de Wilde vertelt waarom het verleden een basis is voor voor zijn succes
+							Lees: Jeroen de Wilde vertelt waarom het verleden een basis is voor zijn succes.
 						</div>
 					</div>
 				</a>
@@ -39,7 +39,7 @@
 							<img src="img/pdf_read.png" alt="" class="linkblock--icon linkblock--icon--document">
 						</div>
 						<div class="linkblock--description">
-							Lees: Overzicht van een aantal mooie restauratieprojecten
+							Lees: Overzicht van een aantal mooie restauratieprojecten.
 						</div>
 					</div>
 				</a>
@@ -50,7 +50,7 @@
 							<img src="img/pdf_read.png" alt="" class="linkblock--icon linkblock--icon--document">
 						</div>
 						<div class="linkblock--description">
-							Lees: De restauratie van tot luxe vakantieboerderij is de droom van Jeroen
+							Lees: De restauratie tot luxe vakantieboerderij.
 						</div>
 					</div>
 				</a>
@@ -61,7 +61,7 @@
 							<img src="img/video_play.png" alt="" class="linkblock--icon linkblock--icon--video">
 						</div>
 						<div class="linkblock--description">
-							Bekijk: film restauratie tuindershuisje de Vlotter
+							Bekijk: film restauratie tuindershuisje de Vlotter.
 						</div>
 					</div>
 				</a>
