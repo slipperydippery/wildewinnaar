@@ -16,7 +16,7 @@
 				</div>
 			</div>
 			<div class="content--body">
-				<p>Joep Bloedjes is managing director van De Wilde Ingenieurs Groep. Als jong broekie begon hij ruim 15 jaar geleden als stagiair bij De Wilde. Joep is ambiteus. Zo ambiteus zelfs, dat Jeroen de Wilde, de totale bedrijfvoering van de Ingenieurs groep aan al een aantal jaar aan hem over laat.</p>
+				<p>Joep Bloedjes is bedrijfsleider van De Wilde Ingenieurs Groep. Als jong broekie begon hij ruim 15 jaar geleden als stagiair bij De Wilde. Joep is ambiteus. Zo ambiteus zelfs, dat Jeroen de Wilde, de totale bedrijfvoering van de Ingenieurs groep aan al een aantal jaar aan hem over laat.</p>
 				<p><a href="pdf/verbinden betekent vertrouwen.pdf">Lees dit artikel verder >></a></p>	
 				
 			</div>
