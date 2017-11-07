@@ -6,7 +6,7 @@
 	</div>
 	<div class="wrapper">
 		<div class="content">
-			<img src="img/wilde_logo.png" alt="" class="logo">
+			<a href="index.html"><img src="img/wilde_logo.png" alt="" class="logo"></a>
 			<div class="content--head">
 				<h2>De geheimen van de Wilde Winnaar</h2>
 				<div class="social--icons">
