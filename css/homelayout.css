@@ -42,6 +42,12 @@
 	background: rgba(255, 0, 0, 0.55);
 }
 
+.parallax--ttl {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
 .parallax-container {
 	position: absolute;
 	left: 0;
@@ -97,7 +103,7 @@
 
 .background {
 	position: absolute;
-	background: url(../img/background.jpg) no-repeat 50% 50%;
+	background: url(/img/background.jpg) no-repeat 50% 50%;
 	background-size: cover;
 	/*transition: all .1s ease;*/
 }
@@ -136,7 +142,7 @@
     left: 12.8%;
     width: 12.6%;
     height: 12%;
-	background-image: url(../img/monument.png);
+	background-image: url(/img/monument.png);
     background-size: 80%;
     background-position: 100% 100%;
     background-repeat: no-repeat;
@@ -147,7 +153,7 @@
     left: 70%;
     width: 17.3%;
     height: 15%;
-    background-image: url(../img/vliegtuig.png);
+    background-image: url(/img/vliegtuig.png);
     background-size: 80%;
     background-position: 100% -6%;
     background-repeat: no-repeat;
@@ -158,7 +164,7 @@
     left: 80.3%;
     width: 19.3%;
     height: 10%;
-    background-image: url(../img/spoorbrug.png);
+    background-image: url(/img/spoorbrug.png);
     background-size: 80%;
     background-position: 100% 100%;
     background-repeat: no-repeat;
@@ -170,7 +176,7 @@
     left: 58%;
     width: 12.3%;
     height: 16%;
-	background-image: url(../img/zuidas.png);
+	background-image: url(/img/zuidas.png);
     background-size: 80%;
     background-position: 100% 100%;
     background-repeat: no-repeat;
@@ -181,7 +187,7 @@
     left: 28.2%;
     width: 12.4%;
     height: 15%;
-	background-image: url(../img/voetbal.png);
+	background-image: url(/img/voetbal.png);
     background-size: 80%;
     background-position: 100% 100%;
     background-repeat: no-repeat;
@@ -202,10 +208,12 @@
 }
 
 .introtext {
-    position: absolute;
-    bottom: 15%;
-    left: 25%;
-    width: 50%;
+    /*position: absolute;*/
+    position: relative;
+    display: inline-block;
+    top: 65%;
+    /* left: 25%; */
+    width: 50rem;
     background: rgba(0,0,0,0.3);
     padding: 1rem;
 }

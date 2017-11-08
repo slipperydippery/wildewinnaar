@@ -16,9 +16,9 @@
 	<meta name="keywords" content="Jeroen de Wilde">
 
 	<!-- Styles -->
-	<link rel="stylesheet" type="text/css" href="css/app.css"/>
-	<link rel="stylesheet" type="text/css" href="css/layout.css"/>
-	<link rel="stylesheet" type="text/css" href="css/subpagelayout.css"/>
+	<link rel="stylesheet" type="text/css" href="app.css"/>
+	<link rel="stylesheet" type="text/css" href="layout.css"/>
+	<link rel="stylesheet" type="text/css" href="subpagelayout.css"/>
 	<link href="css/video-js.css" rel="stylesheet" type="text/css">
 	<link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
 
