@@ -5,7 +5,7 @@
 	</div>
 	<div class="wrapper">
 		<div class="content content--pdf">
-			<object data='http://embav.nl/wildepdfs/interview%20verleden%20bron%20succes%20V1.pdf#toolbar=1' 
+			<object data='pdf/interview%20verleden%20bron%20succes%20V1.pdf#toolbar=1' 
 	        type='application/pdf' 
 	        width='100%' 
 	        height='100%'>

@@ -5,12 +5,12 @@
 	</div>
 	<div class="wrapper">
 		<div class="content content--pdf">
-			<object data='http://embav.nl/wildepdfs/projectsheet%20verleden%20De%20Boerderij%20V1.pdf#toolbar=1' 
+			<object data='pdf/projectsheet%20verleden%20De%20Boerderij%20V1.pdf#toolbar=1' 
 	        type='application/pdf' 
 	        width='100%' 
 	        height='100%'>
 		</div>
 	</div>
 <?php 
-	include 'partials/footer.php';
+	include 'partials/footer2.php';
  ?>	
