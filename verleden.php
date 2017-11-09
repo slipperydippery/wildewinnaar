@@ -21,7 +21,7 @@
 				<p><a href="pdf/interview verleden bron succes V1.pdf">Lees dit artikel verder >></a> of klik op een ander item.</p>
 			</div>
 			<div class="content--links">
-				<a href="pdf/interview verleden bron succes V1.pdf" class="linkblock">
+				<a href="pdf/interview verleden bron succes V1.pdf" class="linkblock" target="_blank">
 					<div>
 						<div class="linkblock--visual">
 							<img src="img/verledenbron.png" alt=""/>
@@ -32,7 +32,7 @@
 						</div>
 					</div>
 				</a>
-				<a href="pdf/factsheet - verleden.pdf" class="linkblock">
+				<a href="pdf/factsheet - verleden.pdf" class="linkblock" target="_blank">
 					<div >
 						<div class="linkblock--visual">
 							<img src="img/verledenprojecten.png" alt=""/>
@@ -43,7 +43,7 @@
 						</div>
 					</div>
 				</a>
-				<a href="pdf/projectsheet verleden De Boerderij V1.pdf" class="linkblock">
+				<a href="pdf/projectsheet verleden De Boerderij V1.pdf" class="linkblock" target="_blank">
 					<div >
 						<div class="linkblock--visual">
 							<img src="img/verledendromen.png" alt=""/>
@@ -72,7 +72,7 @@
 			<video id="example_video_1" class="video-js vjs-default-skin" controls preload="auto"
 			style="height:auto; width:100%"
 			data-setup="{}">
-			<source src="video/film tuindershuis.mp4" type='video/mp4' />
+			<source src="video/film tuindershuis.mp/4" type='video/mp4' />
 			<p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
 			</video>
 		</div>

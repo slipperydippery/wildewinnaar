@@ -19,7 +19,7 @@
 				<p>Genomineerd worden, in the picture staan en dan ook nog eens winnen. Het lijkt heel vanzelfsprekend maar dat is het niet. Voor De Wilde kwam de nominatie als een verrassing. Sterker nog, legt Jeroen de Wilde uit: ‘We wisten niet eens waar we aan begonnen. Toch zijn we er vanaf het begin vol ingegaan. Want, als je meedoet, ga je ervoor.’ Een eigenschap, die we bij alle medewerkers van De Wilde tegenkomen; een integraal onderdeel van De Wilde Ingenieurs Groep.</p>
 			</div>
 			<div class="content--links">
-				<a href="pdf/De drive om te winnen.pdf" class="linkblock">
+				<a href="pdf/De drive om te winnen.pdf" class="linkblock" target="_blank">
 					<div>
 						<div class="linkblock--visual">
 							<img src="img/geheimdrive.png" alt=""/>
@@ -30,7 +30,7 @@
 						</div>
 					</div>
 				</a>
-				<a href="pdf/Publiciteit rondom de award.pdf" class="linkblock">
+				<a href="pdf/Publiciteit rondom de award.pdf" class="linkblock" target="_blank">
 					<div >
 						<div class="linkblock--visual">
 							<img src="img/geheimenpubliciteit.png" alt=""/>

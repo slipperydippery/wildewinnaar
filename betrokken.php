@@ -21,7 +21,7 @@
 				<p><a href="pdf/factsheet - sponsoractiviteiten.pdf">Lees dit artikel verder >></a></p>	
 			</div>
 			<div class="content--links">
-				<a href="pdf/factsheet - sponsoractiviteiten.pdf" class="linkblock">
+				<a href="pdf/factsheet - sponsoractiviteiten.pdf" class="linkblock" target="_blank">
 					<div>
 						<div class="linkblock--visual">
 							<img src="img/regionaalprojecten.png" alt=""/>
