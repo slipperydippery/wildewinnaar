@@ -7,8 +7,8 @@
 		<div class="content content--pdf">
 			<object data='pdf/interview%20verleden%20bron%20succes%20V1.pdf#toolbar=1' 
 	        type='application/pdf' 
-	        width='100%' 
-	        height='100%'>
+	        width='1000' 
+	        height='800'>
 		</div>
 	</div>
 <?php 
