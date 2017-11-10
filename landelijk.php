@@ -20,7 +20,7 @@
 				<p><a href="projectsheetoiltanking.php">Lees dit artikel verder >></a> of klik op een ander item.</p>	
 			</div>
 			<div class="content--links">
-				<a href="projectsheetoiltanking.php" class="linkblock" target="_blank">
+				<a href="projectsheetoiltanking.php" class="linkblock" >
 					<div>
 						<div class="linkblock--visual">
 							<img src="img/landelijkdebeste.png" alt=""/>
@@ -31,7 +31,7 @@
 						</div>
 					</div>
 				</a>
-				<a href="landelijkopeenrijtje.php" class="linkblock" target="_blank">
+				<a href="landelijkopeenrijtje.php" class="linkblock" >
 					<div >
 						<div class="linkblock--visual">
 							<img src="img/landelijkprojecten.png" alt=""/>
@@ -51,7 +51,7 @@
 			style="height:auto; width:100%"
 			data-setup="{}">
 			<source src="http://vjs.zencdn.net/v/oceans.mp4" type='video/mp4' />
-			<p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+			<p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" >supports HTML5 video</a></p>
 			</video>
 		</div>
 	</div>
