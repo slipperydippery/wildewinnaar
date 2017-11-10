@@ -20,7 +20,7 @@
 				<p><a href="pdf/projectsheet Joep Amsterdam Oiltanking.pdf">Lees dit artikel verder >></a> of klik op een ander item.</p>	
 			</div>
 			<div class="content--links">
-				<a href="pdf/projectsheet Joep Amsterdam Oiltanking.pdf" class="linkblock">
+				<a href="projectsheetoiltanking.php" class="linkblock" target="_blank">
 					<div>
 						<div class="linkblock--visual">
 							<img src="img/landelijkdebeste.png" alt=""/>
@@ -31,7 +31,7 @@
 						</div>
 					</div>
 				</a>
-				<a href="pdf/factsheet - landelijk grote projecten op een rijtje.pdf" class="linkblock">
+				<a href="landelijkopeenrijtje.php" class="linkblock" target="_blank">
 					<div >
 						<div class="linkblock--visual">
 							<img src="img/landelijkprojecten.png" alt=""/>

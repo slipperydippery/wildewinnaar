@@ -21,7 +21,7 @@
 				
 			</div>
 			<div class="content--links">
-				<a href="pdf/verbinden betekent vertrouwen.pdf" class="linkblock">
+				<a href="verbindenbetekentvertrouwen.php" class="linkblock" target="_blank">
 					<div>
 						<div class="linkblock--visual">
 							<img src="img/verbindenbetekent.png" alt=""/>

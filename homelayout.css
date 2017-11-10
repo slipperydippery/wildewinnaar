@@ -1,0 +1,219 @@
+.wildeinglogo {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    width: 14%;
+}
+
+.wildeinglogo img {
+    width: 100%;
+}
+
+.wildeintro--container {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	z-index: 100;
+	background: rgba(0,0,0,0.7);
+	display: none;
+}	
+
+.wildeintro--text {
+	position: relative;
+	width: 50rem;
+	margin: 20vh auto;
+	padding: 2rem;
+	background: rgba(255,255,255,0.85);
+}
+
+#wildeintro--close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    border: 1px solid grey;
+    padding: .5rem;
+    transition: all .5s;
+}
+
+#wildeintro--close:hover {
+	background: rgba(255, 0, 0, 0.55);
+}
+
+.parallax--ttl {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.parallax-container {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+	pointer-events: none;
+}
+
+.parallax-container > div > * {
+	pointer-events: auto;
+}
+
+.parallax-container img {
+	position: absolute;
+	/*transition: all 1s ease;*/
+}
+
+.ttl {
+	position: absolute;
+    width: 36%;
+    left: 30%;
+    top: 15%;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.ttl:hover {
+	width: 40%;
+	left: 28%;
+	top: 14%;
+}
+
+.geheimen:hover .geheimtext {
+    opacity: 1;
+}
+
+.geheimtext {
+    position: absolute;
+    display: block;
+    box-sizing: border-box;
+    padding: 1rem 2rem;
+    width: 40%;
+    left: 28%;
+    top: 28%;
+    background: rgba(0,0,0,0.2);
+    text-decoration: none;
+    color: white;
+    opacity: 0;
+    transition: all .5s;
+}
+
+.background {
+	position: absolute;
+	background: url(../img/background.jpg) no-repeat 50% 50%;
+	background-size: cover;
+	/*transition: all .1s ease;*/
+}
+
+.background img {
+	width: 100%;
+	height: 100%;
+	user-select: none;
+	display: none;
+}
+
+.background--quality {
+	position: absolute;
+	background-size: cover;
+	background-blend-mode: multiply;
+	/*mix-blend-mode: multiply;*/
+	transition: all .5s;
+}
+
+.background--quality:hover {
+	background-color: rgba(158, 77, 77, 0.14);
+}
+
+.zuidas:hover {
+    background-color: transparent ;
+}
+
+.background--quality--link:hover .background--label {
+    background: #920000;
+    /*color: black;*/
+    font-size: 1rem;
+}
+
+.background .monument {
+	top: 51.7%;
+    left: 12.8%;
+    width: 12.6%;
+    height: 12%;
+	background-image: url(../img/monument.png);
+    background-size: 80%;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.background .vliegtuig {
+    top: 33%;
+    left: 70%;
+    width: 17.3%;
+    height: 15%;
+    background-image: url(../img/vliegtuig.png);
+    background-size: 80%;
+    background-position: 100% -6%;
+    background-repeat: no-repeat;
+}
+
+.background .spoorbrug {
+    top: 55.2%;
+    left: 80.3%;
+    width: 19.3%;
+    height: 10%;
+    background-image: url(../img/spoorbrug.png);
+    background-size: 80%;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-opacity: 0.8;
+}
+
+.background .zuidas {
+    top: 48.6%;
+    left: 58%;
+    width: 12.3%;
+    height: 16%;
+	background-image: url(../img/zuidas.png);
+    background-size: 80%;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.background .voetbal {
+    top: 50.9%;
+    left: 28.2%;
+    width: 12.4%;
+    height: 15%;
+	background-image: url(../img/voetbal.png);
+    background-size: 80%;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+	mix-blend-mode: normal;
+}
+
+.background--label {
+	position: absolute;
+	top: 0;
+    left: 0;
+	background: #524e49;
+	color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: .8rem;
+    padding: .5rem 2rem;
+    white-space: nowrap;
+	transition: all .5s;
+}
+
+.introtext {
+    /*position: absolute;*/
+    position: relative;
+    display: inline-block;
+    top: 65%;
+    /* left: 25%; */
+    width: 50rem;
+    background: rgba(0,0,0,0.3);
+    padding: 1rem;
+}
