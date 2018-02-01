@@ -30,17 +30,6 @@
 						</div>
 					</div>
 				</a>
-				<a href="publiciteitrondom.php" class="linkblock" target="_blank">
-					<div >
-						<div class="linkblock--visual">
-							<img src="img/geheimenpubliciteit.png" alt=""/>
-							<img src="img/pdf_read.png" alt="" class="linkblock--icon linkblock--icon--document">
-						</div>
-						<div class="linkblock--description">
-							Lees: Publiciteit rondom de award
-						</div>
-					</div>
-				</a>
 				<a href="#test-popup" class="linkblock open-popup-link">
 					<div>
 						<div class="linkblock--visual">
@@ -52,6 +41,8 @@
 						</div>
 					</div>
 				</a>
+				
+				<div class="linkblock"></div>
 			</div>
 
 		</div>

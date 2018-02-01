@@ -5,7 +5,7 @@
 	</div>
 	<div class="wrapper">
 		<div class="content content--pdf">
-			<object data='pdf/interview%20verleden%20bron%20succes%20V1.pdf#toolbar=1' 
+			<object data='pdf/verleden_als_bron_voor_succes.pdf#toolbar=1' 
 	        type='application/pdf' 
 	        width='1000' 
 	        height='800'>
