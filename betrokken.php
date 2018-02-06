@@ -16,8 +16,7 @@
 				</div>
 			</div>
 			<div class="content--body">
-				<p>De Wilde sponsort een groot aantal verenigingen en clubs in de regio IJmond. Dat cre&euml;ert natuurlijk exposure maar het is niet de voornaamste reden om clubs in de regio te ondersteunen.</p>
-				<p> De Wilde ingenieurs groep voelt zich vooral betrokken met alles dat zich in de regio IJmond afspeelt. Want hier wonen, werken en recre&euml;ren medewerkers en klanten en kinderen, familie en vrienden van medewerkers en klanten. </p>
+				<p>De Wilde Ingenieurs Groep mocht zich het hele jaar 2017 Winnaar noemen van de IJmond Award. De prijs was een verrassende erkenning voor de manier waarop we zijn uitgegroeid tot succesvol bedrijf. We beseften dat we veel geleerd hebben over ons vak en vooral over ondernemen. Die kennis willen we graag delen. Zo hopen we mede-ondernemers, klanten en partners te inspireren. </p>
 				<p><a href="factsheetsponsoractiviteiten.php">Lees dit artikel verder >></a></p>	
 			</div>
 			<div class="content--links">

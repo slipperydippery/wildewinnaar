@@ -16,7 +16,7 @@
 				</div>
 			</div>
 			<div class="content--body">
-				<p>Het lijkt wat ver gezocht. Monumenten restaureren als belangrijke tak van een ingenieursbureau. Want zo op het eerste gezicht hebben monumenten niets te maken met kwaliteit, arbo, milieu en veiligheid. Maar zo ver ligt het niet af van alles dat te maken heeft met De Wilde Ingenieurs Groep. In deze bijzondere specialisatie ligt misschien wel de kern en de kracht van alles dat De Wilde Ingenieurs Groep doet. </p>
+				<p>Het lijkt wat vergezocht: monumenten restaureren als belangrijke activiteit van een ingenieursbureau. Want zo op het eerste gezicht hebben monumenten niets te maken met kwaliteit, arbo, milieu en veiligheid. Maar toch: ze liggen dichter bij elkaar dan je op het eerste gezicht zou denken. In deze bijzondere specialisatie ligt misschien wel de kern en de kracht van alles dat De Wilde doet.  </p>
 
 				<p><a href="verledenalsbron.php">Lees dit artikel verder >></a> of klik op een ander item.</p>
 			</div>

@@ -16,7 +16,7 @@
 				</div>
 			</div>
 			<div class="content--body">
-				<p>Genomineerd worden, in the picture staan en dan ook nog eens winnen. Het lijkt heel vanzelfsprekend maar dat is het niet. Voor De Wilde kwam de nominatie als een verrassing. Sterker nog, legt Jeroen de Wilde uit: ‘We wisten niet eens waar we aan begonnen. Toch zijn we er vanaf het begin vol ingegaan. Want, als je meedoet, ga je ervoor.’ Een eigenschap, die we bij alle medewerkers van De Wilde tegenkomen; een integraal onderdeel van De Wilde Ingenieurs Groep.</p>
+				<p>Genomineerd worden, in de picture staan en dan ook nog eens winnen. Het lijkt heel vanzelfsprekend, maar dat is het niet. Voor De Wilde kwam de nominatie als een verrassing. Sterker nog, legt Jeroen de Wilde uit: ‘We wisten niet eens waar we aan begonnen. Toch zijn we er vanaf het begin vol ingegaan. Want als je meedoet, ga je ervoor. Een eigenschap die we bij alle medewerkers van De Wilde tegenkomen.’ </p>
 			</div>
 			<div class="content--links">
 				<a href="driveomtewinnen.php" class="linkblock" target="_blank">
