@@ -16,7 +16,10 @@
 				</div>
 			</div>
 			<div class="content--body">
-				<p>De Wilde Ingenieurs Groep mocht zich het hele jaar 2017 Winnaar noemen van de IJmond Award. De prijs was een verrassende erkenning voor de manier waarop we zijn uitgegroeid tot succesvol bedrijf. We beseften dat we veel geleerd hebben over ons vak en vooral over ondernemen. Die kennis willen we graag delen. Zo hopen we mede-ondernemers, klanten en partners te inspireren. </p>
+				<p>De Wilde sponsort een groot aantal verenigingen en clubs in de regio IJmond. Dat doen we omdat we kunst, cultuur en erfgoed, en sport en gezondheid belangrijk vinden. We richten ons vooral op de IJmond, omdat hier onze basis ligt.
+				</p>
+				<p>
+				De volgende goede doelen hebben in 2016- 2017 een bijdrage ontvangen tussen € 50,- en € 2.500,-</p>
 				<p><a href="factsheetsponsoractiviteiten.php">Lees dit artikel verder >></a></p>	
 			</div>
 			<div class="content--links">
