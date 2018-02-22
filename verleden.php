@@ -72,7 +72,7 @@
 			<video id="example_video_1" class="video-js vjs-default-skin" controls preload="auto"
 			style="height:auto; width:100%"
 			data-setup="{}">
-			<source src="video/film tuindershuis.mp4" type='video/mp4' />
+			<source src="video/tuindershuis.mp4" type='video/mp4' />
 			<p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" >supports HTML5 video</a></p>
 
 			</video>
