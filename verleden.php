@@ -21,7 +21,7 @@
 				<p><a href="verledenalsbron.php">Lees dit artikel verder >></a> of klik op een ander item.</p>
 			</div>
 			<div class="content--links">
-				<a href="verledenalsbron.php" class="linkblock" >
+				<a href="verledenalsbron.php" class="linkblock"  target="_blank">
 					<div>
 						<div class="linkblock--visual">
 							<img src="img/verledenbron.png" alt=""/>
@@ -32,7 +32,7 @@
 						</div>
 					</div>
 				</a>
-				<a href="factsheetverleden.php" class="linkblock" >
+				<a href="factsheetverleden.php" class="linkblock"  target="_blank">
 					<div >
 						<div class="linkblock--visual">
 							<img src="img/verledenprojecten.png" alt=""/>
@@ -43,7 +43,7 @@
 						</div>
 					</div>
 				</a>
-				<a href="projectsheetdeboerderij.php" class="linkblock" >
+				<a href="projectsheetdeboerderij.php" class="linkblock"  target="_blank">
 					<div >
 						<div class="linkblock--visual">
 							<img src="img/verledendromen.png" alt=""/>
