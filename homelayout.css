@@ -131,18 +131,21 @@
 	transition: all .5s;
 }
 
-.background--quality:hover {
-	background-color: rgba(158, 77, 77, 0.14);
-}
+@media screen and (min-width: 500px) and (min-height: 500px){
 
-.zuidas:hover {
-    background-color: transparent ;
-}
+    .background--quality:hover {
+    	background-color: rgba(158, 77, 77, 0.14);
+    }
 
-.background--quality--link:hover .background--label {
-    background: #920000;
-    /*color: black;*/
-    font-size: 1rem;
+    .zuidas:hover {
+        background-color: transparent ;
+    }
+
+    .background--quality--link:hover .background--label {
+        background: #920000;
+        /*color: black;*/
+        font-size: 1rem;
+    }
 }
 
 .background .monument {
