@@ -86,6 +86,7 @@
     opacity: 1;
 }
 
+
 .geheimtext {
     position: absolute;
     display: block;
@@ -101,8 +102,14 @@
     transition: all .5s;
 }
 
+@media screen and (max-width: 500px) {
+    .geheimtext {
+        display: none;
+    }
+}
+
 .background {
-	position: absolute;
+    position: absolute;
 	background: url(../img/background.jpg) no-repeat 50% 50%;
 	background-size: cover;
 	/*transition: all .1s ease;*/
@@ -201,8 +208,10 @@
 	background: #524e49;
 	color: white;
     font-family: 'Raleway', sans-serif;
-    font-size: .8rem;
-    padding: .5rem 2rem;
+    /*font-size: .8rem;
+    padding: .5rem 2rem;*/
+    font-size: 1.8vmax;
+    padding: 1vmax 3vmax;
     white-space: nowrap;
 	transition: all .5s;
 }
@@ -212,8 +221,15 @@
     position: relative;
     display: inline-block;
     top: 65%;
+    height: 30%;
     /* left: 25%; */
-    width: 50rem;
+    width: 80vw;
+    max-width: 50rem;
     background: rgba(0,0,0,0.3);
     padding: 1rem;
+    overflow-y: auto;
+}
+
+.introtext p {
+    padding-bottom: 5rem;
 }
