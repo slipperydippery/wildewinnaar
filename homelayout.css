@@ -210,8 +210,8 @@
     font-family: 'Raleway', sans-serif;
     /*font-size: .8rem;
     padding: .5rem 2rem;*/
-    font-size: 1.8vmax;
-    padding: 1vmax 3vmax;
+    font-size: 2vmin;
+    padding: 1vmin 4vmin;
     white-space: nowrap;
 	transition: all .5s;
 }
