@@ -88,23 +88,23 @@
 
 
 .geheimtext {
-    position: absolute;
-    display: block;
-    box-sizing: border-box;
-    padding: 1rem 2rem;
-    width: 40%;
-    left: 28%;
-    top: 28%;
-    background: rgba(0,0,0,0.2);
-    text-decoration: none;
-    color: white;
-    opacity: 0;
-    transition: all .5s;
+    display: none;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 500px) and (min-height: 500px){
     .geheimtext {
-        display: none;
+        position: absolute;
+        display: block;
+        box-sizing: border-box;
+        padding: 1rem 2rem;
+        width: 40%;
+        left: 28%;
+        top: 28%;
+        background: rgba(0,0,0,0.2);
+        text-decoration: none;
+        color: white;
+        opacity: 0;
+        transition: all .5s;
     }
 }
 
