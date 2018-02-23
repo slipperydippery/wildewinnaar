@@ -69,6 +69,7 @@
 
 .ttl {
 	position: absolute;
+    max-width: 95vw;
     width: 36%;
     left: 30%;
     top: 15%;
