@@ -1,0 +1,100 @@
+@media screen and (max-width: 500px), screen and (max-height: 500px) {
+	#app {
+		min-width: 100vw;
+		min-height: 100vh;
+	    padding: 5vmin;
+	    background: url(../img/background.jpg);
+	    background-size: cover;
+	}
+
+	.mobile {
+		min-height: 100vh;
+		display: flex;
+		flex-flow: column nowrap;
+	}
+
+	parallax, .wildeintro--container {
+		display: none;
+	}
+
+	a.geheimen {
+		text-decoration: none;
+		color: rgba(255, 255, 255, 0.88);
+	}
+
+	.geheimtext {
+		background: rgba(0,0,0,0.15);
+		padding: 1vmin 5vmin;
+		margin-top: 5vmin;
+	}
+
+
+	img.ttl {
+		width: 75vw;
+	}
+
+	.linkstopages {
+		margin: 2rem 0;
+	}
+
+	.background--quality--link, .background--quality {
+		position: relative;
+		display: block;
+		margin: 0 0 1rem 0;
+		width: 4rem;
+		height: 3rem;
+		background: rgba(220, 220, 220, 0.24);
+		background-position: center; 
+		background-size: contain;
+	    background-repeat: no-repeat;
+	}
+
+	.monument {
+	    background-image: url(../img/monument.png);
+	}
+
+	.vliegtuig {
+	    background-image: url(../img/vliegtuig.png);
+	}
+
+	.spoorbrug {
+	    background-image: url(../img/spoorbrug.png);
+	    background-opacity: 0.8;
+	}
+
+	.zuidas {
+	    background-image: url(../img/zuidas.png);
+	}
+
+	.voetbal {
+	    background-image: url(../img/voetbal.png);
+	    mix-blend-mode: normal;
+	}
+
+	.background--label {
+	    position: absolute;
+	    top: 0;
+	    left: 4rem;
+	    height: 3rem;
+	    background: #524e49;
+	    color: white;
+	    font-family: 'Raleway', sans-serif;
+	    font-size: 1rem;
+	    padding: 1vmin 4vmin;
+	    white-space: nowrap;
+	    transition: all .5s;
+	}
+
+	.wildeinglogo {
+		display: block;
+		width: 100%;
+		background: rgba(255, 255, 255, 0.8);
+		height: 3rem;
+	}
+
+	.wildeinglogo img {
+		height: 3rem;
+		width: auto;
+	}
+
+}

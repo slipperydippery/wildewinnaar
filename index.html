@@ -18,6 +18,7 @@
 	<!-- Styles -->
 	<link rel="stylesheet" type="text/css" href="layout.css"/>
 	<link rel="stylesheet" type="text/css" href="homelayout.css"/>
+	<link rel="stylesheet" type="text/css" href="homelayout_mobile.css"/>
 
 
 	<!-- Favicon -->
@@ -49,6 +50,35 @@
 <body>
 
 <div id="app">
+	<div class="mobile">
+		<a href="geheimen.php" class="geheimen">
+			<img src="img/ttl.png" alt="" class="ttl" id="ttl"/>
+			<div class="geheimtext clearfix">
+				<p>De Wilde ingenieurs groep mocht zich het hele jaar 2017 Winnaar noemen van de IJmond Award. De prijs was een verrassende erkenning voor de manier waarop we zijn uitgegroeid tot succesvol bedrijf. We beseften dat we veel geleerd hebben over ons vak en vooral over ondernemen. Die kennis willen we graag delen. Zo hopen we mede-ondernemers, klanten en partners te inspireren.</p>
+			</div>
+		</a>
+		<div class="linkstopages">
+			<a href="verleden.php" class="background--quality--link">
+				<div class="monument background--quality">
+					<div class="monument--label background--label">Verbinden met verleden</div>
+				</div>
+			</a>
+				<div class="vliegtuig background--quality">
+					<div class="vliegtuig--label background--label">Landelijk grote projecten</div>
+				</div>
+			<a href="partijen.php" class="background--quality--link">
+				<div class="spoorbrug background--quality">
+					<div class="spoorbrug--label background--label">Verbinden van betrokken partijen</div>
+				</div>
+			</a>
+			<a href="betrokken.php" class="background--quality--link">
+				<div class="voetbal background--quality">
+					<div class="voetbal--label background--label">Regionaal betrokken</div>
+				</div>
+			</a>
+		</div>
+		
+	</div>
 	<div class="wildeintro--container" id="wildeintro--container">
 		<div class="wildeintro--text">
 			<a href="#" id="wildeintro--close">X</a>
@@ -68,7 +98,6 @@
 				<div class="vliegtuig--label background--label">Landelijk grote projecten</div>
 			</div>
 		<a href="partijen.php" class="background--quality--link">
-				hallo
 			<div class="spoorbrug background--quality">
 				<div class="spoorbrug--label background--label">Verbinden van betrokken partijen</div>
 			</div>
@@ -94,7 +123,7 @@
 
 			</div>
 	</parallax>
-	<a href="https://www.dewildegroep.nl" class="wildeinglogo">
+	<a href="https://www.dewildegroep.nl" class="wildeinglogo ">
 		<img src="img/wilde_logo.png" alt="" class="wildeinglogo--img">
 	</a>
 	
@@ -102,20 +131,20 @@
 
 
 	<!-- Scripts -->
-	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
-	<script src="js/main.js"></script>
 	<script>
-		// var overlay = document.getElementById("wildeintro--container");
-		// document.getElementById("ttl").addEventListener("click", showOverlay);
-		// document.getElementById("wildeintro--close").addEventListener("click", hideOverlay);
-		// overlay.addEventListener("click", hideOverlay);
+	    if (window.innerWidth > 500) {
+	        var head = document.getElementsByTagName('head')[0];
 
-		// function showOverlay() {
-		//     overlay.style.display = "block";
-		// }
-		// function hideOverlay () {
-		//     overlay.style.display = "none";
-		// }
+	        var s1 = document.createElement("script");
+	        s1.type = "text/javascript";
+	        s1.src = "https://cdn.jsdelivr.net/npm/vue";
+	        head.appendChild(s1);
+
+	        var s2 = document.createElement("script");
+	        s2.type = "text/javascript";
+	        s2.src = "js/main.js";
+	        head.appendChild(s2);
+	    }
 	</script>
 
 
