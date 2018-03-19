@@ -30,7 +30,7 @@
 							<img src="img/pdf_read.png" alt="" class="linkblock--icon linkblock--icon--document">
 						</div>
 						<div class="linkblock--description">
-							Lees: Overzicht van  alle sponsoractiviteiten.
+							Lees: Overzicht van  alle sponsor<wbr>activiteiten.
 						</div>
 					</div>
 				</a>

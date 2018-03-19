@@ -54,6 +54,7 @@
 	}
 
 	.vliegtuig {
+		display: none;
 	    background-image: url(../img/vliegtuig.png);
 	}
 

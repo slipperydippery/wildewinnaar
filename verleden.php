@@ -39,7 +39,7 @@
 							<img src="img/pdf_read.png" alt="" class="linkblock--icon linkblock--icon--document">
 						</div>
 						<div class="linkblock--description">
-							Lees: Overzicht van een aantal mooie restauratieprojecten.
+							Lees: Overzicht van een aantal mooie restauratie<wbr>projecten.
 						</div>
 					</div>
 				</a>
@@ -50,7 +50,7 @@
 							<img src="img/pdf_read.png" alt="" class="linkblock--icon linkblock--icon--document">
 						</div>
 						<div class="linkblock--description">
-							Lees: De restauratie tot luxe vakantieboerderij.
+							Lees: De restauratie tot luxe vakantie<wbr>boerderij.
 						</div>
 					</div>
 				</a>
